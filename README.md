@@ -1,5 +1,5 @@
 ![image](https://github.com/bifan-wei/HwTxtReader/blob/master/pics/ic_txt_logo.png) <br> 
-**想要快速实现文本播放显示功能么？HwTxtReader 是一个轻量级文本播放控件，能帮助你快速集成加载播放小说文本文件功能，同时内置默认的播放页面，能让你快速集成一个简洁漂亮的小说阅读器**<br> 
+**一分钟让你的app快速集成一个简洁漂亮的小说阅读器！**<br>
 <br> <br> 
 #### 目前实现了的功能：
 +   字体设置与调节。包括大小、颜色、是否加粗。<br>
@@ -16,19 +16,18 @@
 
 <br>
 
-#### 2020/03/28 最新更新：优化竖向古风排版，欢迎start issue！<br><br>
+### 看不到图片？查看这里[CSDN](https://blog.csdn.net/u014614038/article/details/51062842)
+
+#### 2021/06/12 最新更新：适配Android X！凭兴趣爱好维护！如有帮助欢迎start支持！<br><br>
 
 ![image](https://github.com/bifan-wei/HwTxtReader/blob/master/pics/ic_style.png)<br>
 
-#### 2019/06/30最新更新：增加剪切翻页风格，需要直接下代码。周末不陪女朋友宅宿舍更新这个，良心维护啊！！你的点赞是对我最大的支持，欢迎start issue！<br><br>
+#### 2019/06/30更新：增加剪切翻页风格！超级漂亮！<br><br>
 ![image](https://github.com/bifan-wei/bifanResource/blob/master/git/shear.gif)<br>
 
 #### 演示demo
 <br><br>
 **[apk下载](https://github.com/bifan-wei/HwTxtReader/tree/master/demoapk)** <br>
-![image](https://github.com/bifan-wei/bifanResource/blob/master/videos/demo_video.gif)
-#### 更新日志请查看 updateLog.txt文件
-<br>
 
 #### 目前demo效果图：
 ![image](https://github.com/bifan-wei/HwTxtReader/blob/master/pics/ic_reader1.png)
@@ -50,7 +49,7 @@ repositories {
 }
  
 dependencies {
-	        implementation 'com.github.bifan-wei:HwTxtReader:V2.1.1'
+	        implementation 'com.github.bifan-wei:HwTxtReader:V2.2'
 	        //注意Android support 版本请使用 implementation 'com.android.support:appcompat-v7:28.0.0'，
 		}
 		
@@ -98,5 +97,4 @@ dependencies {
 <br> 
 <br> 
 
-#### 如果你觉得还不错，欢迎start支持。
 
