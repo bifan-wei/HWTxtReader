@@ -613,4 +613,13 @@ public class TxtReaderView extends TxtReaderBaseView {
 
         }
     };
+
+    /**
+     * 根据下标跳转页面
+     */
+    public void gotoPage(int index) {
+        IPage page = getAllPage().get(index);
+        TxtChar firstChar = page.getFirstChar();
+        loadFromProgress(firstChar.ParagraphIndex, firstChar.CharIndex);
+    }
 }

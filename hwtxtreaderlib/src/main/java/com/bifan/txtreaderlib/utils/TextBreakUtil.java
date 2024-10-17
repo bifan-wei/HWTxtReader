@@ -18,6 +18,12 @@ public class TextBreakUtil {
         float[] is = new float[index + cs.length];
 
         for (int i = 0, size = cs.length; i < size; i++) {
+            // 识别换行符换行
+            if ('\n' == cs[i]) {
+                is[0] = i + 1;
+                is[1] = 1;
+                return is;
+            }
             String measureStr = String.valueOf(cs[i]);
             float charWidth = paint.measureText(measureStr);
             if ((width + textPadding + charWidth) >= measureWidth) {
@@ -47,6 +53,12 @@ public class TextBreakUtil {
         int index = 2;
         float[] is = new float[index + cs.length];
         for (int i = 0, size = cs.length; i < size; i++) {
+            // 识别换行符换行
+            if ('\n' == cs[i]) {
+                is[0] = i + 1;
+                is[1] = 1;
+                return is;
+            }
             float charHeight =  paint.getTextSize();
             if ((height + textPadding + charHeight) >= measureHeight) {
                 is[0] = i;
